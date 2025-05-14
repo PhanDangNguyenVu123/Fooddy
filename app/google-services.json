@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "476815574750",
+    "firebase_url": "https://fooddy-2101c-default-rtdb.firebaseio.com",
+    "project_id": "fooddy-2101c",
+    "storage_bucket": "fooddy-2101c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476815574750:android:bd09e4b38dad3de711a44f",
+        "android_client_info": {
+          "package_name": "com.example.adminfooddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476815574750-7hn1loi9j7gvdemmm42ilvqml88ce32v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adminfooddy",
+            "certificate_hash": "12479a5f4db4e962646feab4acd63c82b9f3e101"
+          }
+        },
+        {
+          "client_id": "476815574750-q6ivfg29c395mernr1i9umh1s6bmv57d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1VQOubhokhyi-K7xV1Rb1m8oldQWT1IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476815574750-q6ivfg29c395mernr1i9umh1s6bmv57d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476815574750:android:249d14d25bdd00b011a44f",
+        "android_client_info": {
+          "package_name": "com.example.fooddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476815574750-q6ivfg29c395mernr1i9umh1s6bmv57d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1VQOubhokhyi-K7xV1Rb1m8oldQWT1IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476815574750-q6ivfg29c395mernr1i9umh1s6bmv57d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476815574750:android:bce803a074912a8a11a44f",
+        "android_client_info": {
+          "package_name": "com.examples.fooddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476815574750-q6ivfg29c395mernr1i9umh1s6bmv57d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1VQOubhokhyi-K7xV1Rb1m8oldQWT1IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476815574750-q6ivfg29c395mernr1i9umh1s6bmv57d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
