@@ -1,6 +1,7 @@
 package com.examples.fooddy.Fragment
 
 import android.content.Intent
+import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -52,7 +53,17 @@ class HistoryFragment : Fragment() {
         binding.recentbuyitem.setOnClickListener {
             seeItemsRecentBuy()
         }
+
+        binding.recentbuyitem.setOnClickListener {
+            updateOrderStatus()
+        }
         return binding.root
+    }
+
+    private fun updateOrderStatus() {
+        val itemPushKey = listOfOrderItem[0].itemPushKey
+        val completeOrderReference = database.reference.child("OrderDetails").child("CompletedOrder").child(itemPushKey!!)
+        completeOrderReference.child("paymentReceived").setValue(true)
     }
 
     //function to se recent buy item
@@ -105,9 +116,10 @@ class HistoryFragment : Fragment() {
                 val uri = Uri.parse(image)
                 Glide.with(requireContext()).load(uri).into(buyAgainFoodImage)
 
-                listOfOrderItem.reverse()
-                if (listOfOrderItem.isNotEmpty()){
-
+                val isOrderIsAccepted = listOfOrderItem[0].orderAccepted
+                if (isOrderIsAccepted){
+                    orderStatus.background.setTint(Color.GREEN)
+                    receivedButton.visibility = View.VISIBLE
                 }
             }
         }
